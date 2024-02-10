@@ -1,0 +1,2 @@
+import"./assets/styles-5c2d5b6c.js";import"./assets/vendor-870f0eb5.js";const n=document.querySelector(".login-form");n.addEventListener("submit",function(o){o.preventDefault();const s=this.elements.email,l=this.elements.password,e=s.value.trim(),t=l.value.trim();if(!e||!t){alert("All form fields must be filled in");return}console.log({email:e,password:t}),this.reset()});
+//# sourceMappingURL=commonHelpers2.js.map
